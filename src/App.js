@@ -16,11 +16,20 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          I am able to update home page!
         </a>
       </header>
+
+      <body className="App-body">
+        <Hello />
+      </body>
+      
     </div>
   );
 }
 
+
+function Hello() {
+  return <div style={{"display": "block"}}>Really</div>;
+}
 export default App;
